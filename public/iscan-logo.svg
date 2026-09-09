@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <filter id="iconGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b2545" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle card -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="#ffffff" filter="url(#iconGlow)" />
+
+  <!-- Phone Container Outer Outline -->
+  <!-- Top notch cut-out and rounded body -->
+  <path d="M 175 75 C 175 75, 175 87, 185 87 L 327 87 C 337 87, 337 75, 337 75 L 360 75 C 385 75, 400 90, 400 115 L 400 150 M 400 210 L 400 280 M 400 340 L 400 380 C 400 405, 385 420, 360 420 L 152 420 C 127 420, 112 405, 112 380 L 112 340 M 112 280 L 112 210 M 112 150 L 112 115 C 112 90, 127 75, 152 75 Z" 
+        fill="none" stroke="#0b2545" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Phone Speaker / Camera Notch slot -->
+  <line x1="225" y1="80" x2="287" y2="80" stroke="#0b2545" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Reticle Scanning Corners (Vivid Green) -->
+  <!-- Top Left -->
+  <path d="M 160 140 H 126 C 118 140, 112 146, 112 154 V 188" fill="none" stroke="#16a34a" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Top Right -->
+  <path d="M 352 140 H 386 C 394 140, 400 146, 400 154 V 188" fill="none" stroke="#16a34a" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Bottom Left -->
+  <path d="M 112 300 V 334 C 112 342, 118 348, 126 348 H 160" fill="none" stroke="#16a34a" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Bottom Right -->
+  <path d="M 400 300 V 334 C 400 342, 394 348, 386 348 H 352" fill="none" stroke="#16a34a" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Laser Scan Line across middle -->
+  <line x1="110" y1="244" x2="402" y2="244" stroke="#16a34a" stroke-width="9" stroke-linecap="round" />
+
+  <!-- 3D Isometric Packaged Box -->
+  <!-- Top Surface (Lighter grey/slate blue) -->
+  <polygon points="200,160 300,140 336,165 236,185" fill="#dfe7f0" stroke="#0b2545" stroke-width="6" stroke-linejoin="round" />
+
+  <!-- Right Side Surface (Darker navy shade) -->
+  <polygon points="300,140 336,165 336,310 300,285" fill="#071b33" stroke="#0b2545" stroke-width="6" stroke-linejoin="round" />
+
+  <!-- Front Main Surface (Navy) -->
+  <polygon points="200,160 236,185 236,360 200,335" fill="none" />
+  <!-- Rectangular box front projection -->
+  <rect x="180" y="160" width="125" height="175" rx="8" fill="#0b2545" stroke="#0b2545" stroke-width="4" />
+  <!-- Front top facet perspective -->
+  <polygon points="180,160 270,135 325,160 235,185" fill="#d0dbe7" stroke="#0b2545" stroke-width="5" stroke-linejoin="round" />
+  <!-- Front right facet -->
+  <polygon points="305,160 325,160 325,320 305,335" fill="#08182b" stroke="#0b2545" stroke-width="4" stroke-linejoin="round" />
+
+  <!-- Box details on front panel -->
+  <!-- Horizontal Text representation bars -->
+  <rect x="200" y="195" width="55" height="7" rx="3.5" fill="#ffffff" />
+  <rect x="200" y="210" width="40" height="7" rx="3.5" fill="#ffffff" />
+
+  <!-- Barcode Label on Box -->
+  <g transform="translate(198, 275)">
+    <!-- Barcode Vertical Stripes -->
+    <rect x="0" y="0" width="5" height="42" fill="#ffffff" />
+    <rect x="8" y="0" width="7" height="42" fill="#ffffff" />
+    <rect x="18" y="0" width="4" height="42" fill="#ffffff" />
+    <rect x="25" y="0" width="8" height="42" fill="#ffffff" />
+    <rect x="36" y="0" width="4" height="42" fill="#ffffff" />
+    <rect x="43" y="0" width="9" height="42" fill="#ffffff" />
+    <rect x="55" y="0" width="5" height="42" fill="#ffffff" />
+    <rect x="63" y="0" width="8" height="42" fill="#ffffff" />
+    <rect x="74" y="0" width="4" height="42" fill="#ffffff" />
+    <rect x="81" y="0" width="6" height="42" fill="#ffffff" />
+  </g>
+
+  <!-- Verified Security Shield (Bottom Right of Commodity) -->
+  <path d="M 320 270 Q 375 255 410 270 Q 415 340 375 375 Q 335 340 320 270 Z" 
+        fill="url(#shieldGrad)" stroke="#15803d" stroke-width="3" />
+
+  <!-- Checkmark inside Shield -->
+  <path d="M 345 318 L 366 338 L 400 296" 
+        fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

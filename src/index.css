@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@keyframes scan-laser {
+  0% {
+    top: 6%;
+    opacity: 0.3;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    top: 94%;
+    opacity: 0.3;
+  }
+}
+
+.animate-scan-laser {
+  animation: scan-laser 2s ease-in-out infinite alternate;
+}
+
+/* Ensure html5-qrcode video element takes full viewport and covers without distortion */
+div[id^="iscan-qr-reader"] {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+div[id^="iscan-qr-reader"] video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 1rem !important;
+}
+
+div[id^="iscan-qr-reader"] img {
+  display: none !important;
+}
+
+div[id^="iscan-qr-reader"] #qr-shaded-region {
+  display: none !important;
+}

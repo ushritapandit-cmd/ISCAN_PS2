@@ -1,0 +1,10 @@
+{
+  "name": "i-Scan",
+  "description": "AI-powered Legal Metrology Packaged Commodity Compliance & Inspection Platform",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
