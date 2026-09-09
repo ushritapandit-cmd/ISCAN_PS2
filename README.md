@@ -18,3 +18,6 @@ View your app in AI Studio: https://ai.studio/apps/b252b1b2-67da-4799-bf3e-dbb2e
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+# ISCAN_PS2
+>>>>>>> c5ea5a50365b90d06ec717d6e17295259eb3963b
